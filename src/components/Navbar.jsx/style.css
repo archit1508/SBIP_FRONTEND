@@ -1,0 +1,6 @@
+.navbar{
+    background-color: transparent !important;
+}
+.nav-link,.navbar-brand{
+    color:#fff;
+}

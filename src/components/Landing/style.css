@@ -1,0 +1,56 @@
+
+.con1{
+    background: url(../../../public/img/bg1.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding-top:-80px;
+    color:#fff;
+}
+.i1{
+    width: 400px;
+    margin:120px auto;
+}
+.search{
+    width: 90%;
+}
+.params{
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+.icon{
+    padding:10px 5px 10px 5px;
+}
+.blocksP{
+    text-align: justify;
+    line-height: 2;
+    padding-right: 45px;
+}
+.spanTx{
+    font-size: 0.8em;
+}
+.statsHeading{
+    width: fit-content;
+    margin:0 auto 30px auto;
+    border-bottom:5px solid #000;
+}
+.con-stats{
+    height: 50vh;
+    padding: 0 60px;
+}
+.con-stats .row{
+    height: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .col-sm-0{
+      display: none !important;
+  }
+  .con1{
+      height:50vh;
+      background:#5956ff;
+  }
+  .con1 .col-sm-12{
+      margin-top:20vh;
+  }
+}
